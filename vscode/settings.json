@@ -1,0 +1,255 @@
+{
+    "prettier.printWidth": 140,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.quoteProps": "as-needed",
+    "prettier.trailingComma": "es5",
+    "prettier.bracketSpacing": true,
+    "prettier.arrowParens": "always",
+    "prettier.endOfLine": "crlf",
+    "prettier.resolveGlobalModules": true,
+    "workbench.tree.indent": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        // https://glitchbone.github.io/vscode-base16-term/#/
+        "terminal.background": "#0f0909",
+        "terminal.foreground": "#ffffff",
+        "terminalCursor.background": "#A7A7A7",
+        "terminalCursor.foreground": "#A7A7A7",
+        "terminal.ansiBlack": "#191919",
+        "terminal.ansiBlue": "#0018ec",
+        "terminal.ansiBrightBlack": "#5F5A60",
+        "terminal.ansiBrightBlue": "#639EE4",
+        "terminal.ansiBrightCyan": "#0cf8e1",
+        "terminal.ansiBrightGreen": "#6bdf59",
+        "terminal.ansiBrightMagenta": "#B888E2",
+        "terminal.ansiBrightRed": "#f72d2d",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBrightYellow": "#fff8bb",
+        "terminal.ansiCyan": "#00ffe541",
+        "terminal.ansiGreen": "#27a713",
+        "terminal.ansiMagenta": "#B888E2",
+        "terminal.ansiRed": "#ec0d3a",
+        "terminal.ansiWhite": "#ffffff",
+        "terminal.ansiYellow": "#ebd726"
+    },
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.rightClickBehavior": "paste",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    // "terminal.integrated.shell.osx": "/bin/bash",
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    // "terminal.integrated.shellArgs.windows": [
+    //     "/k",
+    //     "prompt $P$_$G & set CMDER_CONFIGURED=0 & %CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd",
+    // ],
+    "editor.accessibilitySupport": "off",
+    "editor.columnSelection": false,
+    "editor.cursorBlinking": "solid",
+    "editor.fontFamily": "Cica, Cascadia Code",
+    "editor.fontSize": 15,
+    "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        // "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "explorer.experimental.fileNesting.enabled": true,
+    "explorer.experimental.fileNesting.expand": true,
+    "explorer.experimental.fileNesting.patterns": {
+        "*.js": "$(capture).test.js"
+    },
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\r\n",
+    "files.exclude": {
+        "**/.code-workspace": true,
+        "node_modules/": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "literals",
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "html.format.extraLiners": "",
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapLineLength": 0,
+    "html.format.endWithNewline": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "breadcrumbs.enabled": true,
+    "extensions.ignoreRecommendations": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "npm.enableRunFromFolder": true,
+    "debug.inlineValues": true,
+    "jestrunner.configPath": "./jest.config.js",
+    "workbench.colorTheme": "Cobalt2",
+    "redhat.telemetry.enabled": false,
+    "editor.rename.enablePreview": false,
+    "notebook.diff.enablePreview": false,
+    "cSpell.userWords": [
+        "Aidemy",
+        "Backpressure",
+        "bdash",
+        "buildx",
+        "Chakra",
+        "Chatwork",
+        "circleci",
+        "codepaths",
+        "csstype",
+        "Datadag",
+        "datadoghq",
+        "Datepicker",
+        "dayzed",
+        "endregion",
+        "esbuild",
+        "favion",
+        "Firestore",
+        "freetext",
+        "gcloud",
+        "gettext",
+        "imdb",
+        "Informations",
+        "Keras",
+        "kube",
+        "Kubernetes",
+        "Linq",
+        "Logform",
+        "mailgun",
+        "Manabe",
+        "marp",
+        "minmax",
+        "moriyama",
+        "mypage",
+        "nodepartments",
+        "nolint",
+        "notags",
+        "Noto",
+        "nread",
+        "onread",
+        "openapi",
+        "ornithogalum",
+        "outdir",
+        "rebuilded",
+        "REFERENCEID",
+        "scikit",
+        "semibold",
+        "Signin",
+        "signup",
+        "simpay",
+        "skaffold",
+        "splitted",
+        "subquestion",
+        "subquestions",
+        "Takumi",
+        "tanstack",
+        "teamaidemy",
+        "toastify",
+        "tsbuildinfo",
+        "typegoose",
+        "UNDISABLED",
+        "unstyled",
+        "usecases",
+        "wantedly",
+        "wekyb",
+        "YYYYMMD"
+    ],
+    "vsintellicode.sql.completionsEnabled": false,
+    "sql-formatter.uppercase": true,
+    "scm.autoReveal": false,
+    "workbench.editor.wrapTabs": true,
+    "yaml.format.enable": false,
+    "editor.colorDecorators": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.suggest.preview": true,
+    "html.format.enable": false,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "debug.javascript.unmapMissingSources": true,
+    "prettier.documentSelectors": ["*.js"],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "editor.tokenColorCustomizations": {
+        "strings": "#FF0000",
+        "numbers": "#FF0000"
+    },
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "other": "on",
+            "strings": "on"
+        },
+        "editor.snippetSuggestions": "top"
+    },
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.formatOnSave": false
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.external.osxExec": "iTerm.app",
+    "githubPullRequests.queries": [
+        {
+            "label": "Waiting For My Review",
+            "query": "is:open review-requested:${user}"
+        },
+        {
+            "label": "Assigned To Me",
+            "query": "is:open assignee:${user}"
+        },
+        {
+            "label": "Created By Me",
+            "query": "is:open author:${user}"
+        }
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.commandCenter": true,
+    "githubPullRequests.pullBranch": "never",
+    "markdown.marp.enableHtml": true,
+    "editor.suggest.showWords": false,
+    "editor.tabSize": 2,
+    "go.toolsManagement.autoUpdate": true,
+    "window.zoomLevel": 1,
+    "terminal.integrated.cursorStyle": "line",
+    "workbench.editor.enablePreview": false
+}
